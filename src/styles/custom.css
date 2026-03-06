@@ -1,0 +1,50 @@
+/* Tema oscuro (default) */
+
+:root,
+::backdrop {
+
+  /* Colores corporativos base */
+  --brand-red: #a82013;
+  --brand-blue: #036071;
+
+  /* Accent principal */
+  --sl-color-accent: var(--brand-red);
+
+  /* Hover / elementos destacados */
+  --sl-color-accent-high: #ff6b60;
+
+  /* Fondos suaves */
+  --sl-color-accent-low: #3b0f0c;
+
+  /* Enlaces */
+  --sl-color-text-accent: #4fc3d7;
+
+  /* Código inline */
+  --sl-color-bg-inline-code: #1a1a1a;
+ 
+}
+
+
+/* Tema claro */
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+
+  --brand-red: #a82013;
+  --brand-blue: #036071;
+
+  /* Accent principal */
+  --sl-color-accent: var(--brand-red);
+
+  /* Hover / elementos importantes */
+  --sl-color-accent-high: #7a160d;
+
+  /* Fondos suaves */
+  --sl-color-accent-low: #f7d7d4;
+
+  /* Links usando el azul corporativo */
+  --sl-color-text-accent: var(--brand-blue);
+
+  /* Fondo de código */
+  --sl-color-bg-inline-code: #f3f3f3;
+}

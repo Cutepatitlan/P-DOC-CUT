@@ -1,40 +1,49 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: ¡Bienvenido alumno!
+description: Sitio de documentación la plataforma Moodle de CUTepatitlán
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Aquí encontrarás la documentación necesaria para resolver tus dudas sobre el uso de nuestras plataformas.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/cutLogo.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Manual de usuario de alumno
+      link: /moodle/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Visita nuestra web
+      link: https://web.cutepatitlan.com
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## ¿Aún no eres alumno?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Busca tu carrera ideal" icon="magnifier">
+		Revisa el sitio web de CUTepatitlán para conocer las carreras que ofrecemos y encuentra la que mejor se adapte a tus intereses y metas profesionales.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Regístrate en nuestro sitio de admisiones" icon="document">
+		Entra al sitio de admisiones de CUTepatitlán y completa el proceso de registro para iniciar tu camino hacia una educación de calidad.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Paga tu primer mensualidad" icon="add-document">
+		Realiza el pago de tu primera mensualidad a través de los métodos disponibles para asegurar tu lugar en la universidad y comenzar tu experiencia educativa.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Una pequeña espera" icon="setting">
+		Después de completar tu registro y pago, solo queda esperar un poco mientras procesamos tu información. Pronto recibirás una confirmación y podrás acceder a todos los recursos que CUTepatitlán tiene para ofrecerte.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Toca esté link para ingresar a nueva etapa" icon="open-book">
+		Comienza en cutepatitlan [justo aquí](https://web.cutepatitlan.com/).
 	</Card>
 </CardGrid>
+
+## Manuales para maestros y administrativos.
+
+<CardGrid>
+	<LinkCard title="Manual de usuario para maestros" href="/in-built/sorry" />
+	<LinkCard title="Manual de usuario para administrativos" href="/in-built/sorry" />
+</CardGrid>
+
+
