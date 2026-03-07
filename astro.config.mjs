@@ -51,8 +51,8 @@ export default defineConfig({
 					label: 'Soporte y ayuda',
 					items: [
 						{ label: 'Recuperación de contraseña', slug: 'in-built/sorry' },
-						{ label: 'Preguntas frecuentes', slug: 'in-built/sorry' },
-						{ label: 'Contactar soporte', slug: 'in-built/sorry' },
+						{ label: 'Preguntas frecuentes', slug: 'soporte-y-ayuda/preguntas-frecuentes' },
+						{ label: 'Contactar soporte', slug: 'soporte-y-ayuda/contactar-soporte' },
 					]
 				}
 			],
