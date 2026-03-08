@@ -21,7 +21,7 @@
 
   /* Código inline */
   --sl-color-bg-inline-code: #1a1a1a;
- 
+  
 }
 
 
@@ -47,4 +47,17 @@
 
   /* Fondo de código */
   --sl-color-bg-inline-code: #f3f3f3;
+}
+
+.sl-link-button.primary {
+  background: var(--brand-red);
+  border-color: var(--brand-red);
+  color: var(--sl-color-black);
+}
+
+/* Override del color de selección en la sidebar */
+[aria-current='page'],
+[aria-current='page']:hover,
+[aria-current='page']:focus {
+    background-color: var(--brand-red) !important;
 }
