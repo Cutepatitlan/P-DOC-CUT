@@ -59,5 +59,14 @@
 [aria-current='page'],
 [aria-current='page']:hover,
 [aria-current='page']:focus {
-    background-color: var(--brand-red) !important;
+    background-color: var(--sl-color-accent-high) !important;
+    color: white
+}
+
+.embed-responsive-video {
+  margin: "20px auto";
+  display: "block";
+  height: "400px"; 
+  width: "100%";
+  border-radius: "8px";
 }

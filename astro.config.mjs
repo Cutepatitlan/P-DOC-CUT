@@ -24,17 +24,17 @@ export default defineConfig({
 					items: [
 						{ label: 'Introducción', slug: 'bienvenida/introduccion' },
 						{ label: 'Proceso de admisión', slug: 'bienvenida/admision' },
-						{ label: 'Tu matricula y credenciales', slug: 'in-built/sorry' },
-						{ label: 'El primer inicio de sesión', slug: 'in-built/sorry' },
-						{ label: 'Configuración de perfil', slug: 'in-built/sorry' },
+						{ label: 'Tu matricula y credenciales', slug: 'bienvenida/matricula' },
+						{ label: 'El primer inicio de sesión', slug: 'bienvenida/inicio-de-sesion' },
+						{ label: 'Configuración de perfil', slug: 'bienvenida/configuracion-de-perfil' },
 					],
 				},
 				{
 					label: 'Conociendo el campus virtual',
 					items: [
-						{ label: 'El tablero' , slug: 'in-built/sorry' },
-						{ label: 'Navegación básica', slug: 'in-built/sorry' },
-						{ label: 'cursos', slug: 'in-built/sorry' },
+						{ label: 'El tablero' , slug: 'campus-virtual/tablero' },
+						{ label: 'Navegación básica', slug: 'campus-virtual/navegacion-basica' },
+						{ label: 'Estructura de cursos', slug: 'campus-virtual/estructura-de-cursos' },
 					]
 				},
 				{
@@ -56,38 +56,6 @@ export default defineConfig({
 					]
 				}
 			],
-
-			/*		
-			sidebar: [
-				{
-					label: 'Moodle',
-					items: [
-						{ label: 'Introducción', slug: 'moodle/welcome/intro' },
-						{ label: 'Primeros pasos', slug: 'moodle/welcome/first-steps' },
-						{ label: 'Cómo acceder a Moodle', slug: 'in-built/sorry' },
-						{ label: 'Navegación básica', slug: 'in-built/sorry' },
-						{ label: 'Participar en foros', slug: 'in-built/sorry' },
-						{ label: 'Enviar tareas', slug: 'in-built/sorry' },
-						{ label: 'Ver calificaciones', slug: 'in-built/sorry' },
-						{ label: 'Recursos adicionales', slug: 'in-built/sorry' },
-					],
-				},
-				{
-					label: 'Admisiones',
-					items: [
-						{ label: 'Introducción', slug: 'admisiones/welcome/intro' },
-						{ label: 'Primeros pasos', slug: 'admisiones/welcome/first-steps' },
-					]
-				},
-				{
-					label: 'Centro Escolar Integral',
-					items: [
-						//{ label: 'Introducción', slug: 'CEI/welcome/intro' },
-						//{ label: 'Primeros pasos', slug: 'CEI/welcome/first-steps' },
-					]
-				}
-			
-			],*/
 			customCss:  [
 				'./src/styles/custom.css',
 			],
