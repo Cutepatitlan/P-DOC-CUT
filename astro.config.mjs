@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import icon from 'astro-icon';
 import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
@@ -40,11 +41,11 @@ export default defineConfig({
 				{
 					label: 'Tu vida académica',
 					items: [
-						{ label: 'Entregar una tarea' , slug: 'in-built/sorry' },
-						{ label: 'Participar en un foro', slug: 'in-built/sorry' },
-						{ label: 'Realizar un examen', slug: 'in-built/sorry' },
-						{ label: 'Recursos adicionales', slug: 'in-built/sorry' },
-						{ label: 'Ver calificaciones', slug: 'in-built/sorry' },
+						{ label: 'Entregar una tarea' , slug: 'vida-academica/entregar-una-tarea' },
+						{ label: 'Participar en un foro', slug: 'vida-academica/participacion-en-foros' },
+						{ label: 'Realizar un examen', slug: 'vida-academica/examenes' },
+						{ label: 'Recursos adicionales', slug: 'vida-academica/visualizacion-de-recursos' },
+						{ label: 'Ver calificaciones', slug: 'vida-academica/ver-calificaciones' },
 					]
 				},
 				{ 
@@ -54,11 +55,12 @@ export default defineConfig({
 						{ label: 'Preguntas frecuentes', slug: 'soporte-y-ayuda/preguntas-frecuentes' },
 						{ label: 'Contactar soporte', slug: 'soporte-y-ayuda/contactar-soporte' },
 					]
-				}
+				}				
 			],
 			customCss:  [
 				'./src/styles/custom.css',
 			],
 		}),
+		icon(),
 	],
 });
