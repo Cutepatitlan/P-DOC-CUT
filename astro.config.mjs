@@ -7,7 +7,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Manual de Alumno - CUT',
+			title: 'Manual de Alumno - CUTepatitlán',
 			locales: {
 				root: {
 					label: 'Español',

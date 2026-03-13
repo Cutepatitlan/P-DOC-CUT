@@ -1,4 +1,131 @@
 ---
 title: El tablero
-description: En esta página encontrarás información sobre el tablero de la plataforma Moodle de CUTepatitlán, incluyendo cómo navegar por él, personalizarlo y acceder a tus cursos y actividades.
+description: Guía del tablero para ubicar cursos, pendientes y avisos.
 ---
+import { Card, CardGrid, Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+
+El **tablero** (también llamado **Área personal**) es tu centro de control en Moodle. Desde aquí puedes abrir tus cursos, revisar pendientes y entrar a tus notificaciones o mensajes.
+
+
+## ¿Qué encuentras en el tablero?
+
+<CardGrid>
+	<Card title="Barra superior de Lambda">
+		Incluye accesos rápidos como notificaciones, mensajería, buscador, menú de usuario y cierre de sesión.
+	</Card>
+	<Card title="Menú principal del sitio">
+		Permite ir a Página principal, Área personal, Mis cursos y otros accesos institucionales.
+	</Card>
+	<Card title="Resumen de cursos">
+		Muestra las materias donde estás inscrito para entrar directo al contenido.
+	</Card>
+	<Card title="Línea de tiempo">
+		Presenta actividades próximas con fecha de entrega para priorizar pendientes.
+	</Card>
+	<Card title="Calendario">
+		Te ayuda a visualizar eventos y entregas por día, semana o mes.
+	</Card>
+	<Card title="Avisos y comunicación">
+		Integra notificaciones del sistema y acceso a mensajes con docentes/compañeros.
+	</Card>
+</CardGrid>
+
+**Placeholder multimedia sugerido:**
+- PLACEHOLDER IMAGEN 01: Captura del tablero en Lambda con etiquetas de cada zona.
+
+## Cómo usar el tablero (Moodle 5.0 + Lambda)
+
+<Tabs>
+	<TabItem label="Entrar a cursos">
+		En el bloque de cursos verás tus materias activas.
+
+		- Selecciona el curso por nombre.
+		- Verifica que corresponda al periodo actual.
+		- Revisa avisos antes de iniciar actividades.
+
+		**Placeholder multimedia sugerido:**
+		- PLACEHOLDER GIF 01: Abrir un curso desde el tablero y volver al Área personal.
+	</TabItem>
+
+	<TabItem label="Gestionar pendientes">
+		Usa la línea de tiempo para detectar entregas próximas.
+
+		- Prioriza actividades con fecha más cercana.
+		- Revisa estado de avance después de cada envío.
+		- Complementa con calendario para planificar la semana.
+
+		**Placeholder multimedia sugerido:**
+		- PLACEHOLDER VIDEO 01: Ejemplo de organización semanal con línea de tiempo + calendario.
+	</TabItem>
+
+	<TabItem label="Notificaciones y mensajes">
+		En Lambda, los iconos suelen estar en la parte superior.
+
+		- **Campana:** avisos académicos y del sistema.
+		- **Mensajes:** comunicación directa.
+		- **Perfil de usuario:** preferencias y cierre de sesión.
+
+		**Placeholder multimedia sugerido:**
+		- PLACEHOLDER GIF 02: Abrir notificaciones, entrar a mensajes y volver al tablero.
+	</TabItem>
+
+	<TabItem label="Personalizar vista">
+		Dependiendo del rol, podrás ordenar bloques o ajustar la visualización.
+
+		- Mantén visibles cursos y línea de tiempo.
+		- Evita ocultar bloques que uses para seguimiento.
+		- Si no ves cambios, recarga la página o limpia caché del navegador.
+
+		:::tip
+		Si tienes rol de estudiante, algunas opciones de edición pueden no estar disponibles. Es normal por permisos.
+		:::
+	</TabItem>
+</Tabs>
+
+## Flujo recomendado de uso diario
+
+<Steps>
+1. **Abre el tablero y revisa notificaciones.**
+
+	 Identifica avisos nuevos antes de entrar a una materia.
+
+2. **Consulta línea de tiempo.**
+
+	 Detecta entregas de hoy, mañana y de la semana.
+
+3. **Entra al curso prioritario.**
+
+	 Atiende primero actividades con vencimiento cercano.
+
+4. **Regresa al tablero para validar pendientes restantes.**
+
+	 Confirma qué actividades faltan y en qué curso.
+
+5. **Cierra sesión desde tu perfil.**
+
+	 Especialmente importante si usas equipos compartidos.
+</Steps>
+
+## Señales rápidas en la interfaz Lambda
+
+| Elemento visible | Qué indica | Qué hacer |
+| --- | --- | --- |
+| Icono de campana | Notificaciones nuevas | Revisar avisos antes de iniciar actividades |
+| Icono de mensajes | Conversaciones activas | Leer y responder mensajes académicos |
+| Tarjeta/enlace de curso | Acceso a una materia | Entrar y revisar avisos del curso |
+| Línea de tiempo | Actividades por fecha | Priorizar por vencimiento |
+| Calendario | Vista global de eventos | Planear semana y recordatorios |
+
+## Si no aparece un curso en tu tablero
+
+1. Verifica que tu inscripción esté activa.
+2. Revisa en **Mis cursos** si está oculto o en otra categoría.
+3. Cierra sesión e ingresa de nuevo.
+4. Si persiste, contacta a soporte: [Contactar soporte](../soporte-y-ayuda/contactar-soporte)
+
+**Placeholder multimedia sugerido:**
+- PLACEHOLDER IMAGEN 02: Ruta para revisar “Mis cursos” y validar inscripción.
+
+:::caution[Recomendación importante]
+No esperes al último día para revisar la línea de tiempo. En Moodle 5.0, un buen hábito de seguimiento diario evita la mayoría de entregas fuera de fecha.
+:::

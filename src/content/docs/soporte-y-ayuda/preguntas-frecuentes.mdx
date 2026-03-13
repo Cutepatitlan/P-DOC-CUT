@@ -2,6 +2,8 @@
 title: Preguntas frecuentes.
 description: En esta página encontrarás respuestas a las preguntas más frecuentes relacionadas con el uso de la plataforma
 ---
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
 ## Preguntas frecuentes sobre el uso de la plataforma
 En esta sección encontrarás respuestas a las preguntas más frecuentes relacionadas con el uso de nuestra plataforma educativa. Si tienes alguna pregunta que no esté incluida aquí, no dudes en ponerte en contacto con nuestro equipo de soporte técnico a través de los canales oficiales de comunicación de CUTepatitlán.
 
@@ -11,7 +13,14 @@ TODO
 
 ### ¿Cómo puedo contactar al soporte técnico?
 Si necesitas asistencia técnica, puedes ponerte en contacto con nuestro equipo de soporte técnico a través de los siguientes canales:
-TODO 
+<CardGrid>
+    <Card title="Correo electrónico" icon="external">
+        Envíanos un correo a <a href="mailto:udit@cutepatitlan.com">udit@cutepatitlan.com</a> con una descripción detallada de tu problema o pregunta, y nuestro equipo de soporte técnico te responderá lo antes posible.
+    </Card>
+    <Card title="WhatsApp" icon="phone">
+        Puedes comunicarte con nuestro equipo de soporte técnico a través de WhatsApp al número [+52 37 890 61734](https://wa.me/523789061734). Estamos disponibles para responder tus preguntas y ayudarte con cualquier problema que puedas tener.
+    </Card>
+</CardGrid>
 
 ### ¿Cómo puedo acceder a mis cursos?
 Para acceder a tus cursos, inicia sesión en la plataforma y dirígete a la sección "Mis cursos". Allí encontrarás una lista de los cursos en los que estás inscrito. Haz clic en el curso al que deseas acceder para ver el contenido y las actividades disponibles.
